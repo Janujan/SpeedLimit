@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4505961521DAAEB1009F10C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505961421DAAEB1009F10C6 /* AppDelegate.swift */; };
+		4505961721DAAEB1009F10C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505961621DAAEB1009F10C6 /* ViewController.swift */; };
+		4505961A21DAAEB1009F10C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4505961821DAAEB1009F10C6 /* Main.storyboard */; };
+		4505961C21DAAEB5009F10C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4505961B21DAAEB5009F10C6 /* Assets.xcassets */; };
+		4505961F21DAAEB5009F10C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4505961D21DAAEB5009F10C6 /* LaunchScreen.storyboard */; };
+		4505962A21DAAEB5009F10C6 /* SpeedLimitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505962921DAAEB5009F10C6 /* SpeedLimitTests.swift */; };
+		4505963521DAAEB5009F10C6 /* SpeedLimitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505963421DAAEB5009F10C6 /* SpeedLimitUITests.swift */; };
+		4505963A21DAAEB5009F10C6 /* SpeedLimit WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4505963921DAAEB5009F10C6 /* SpeedLimit WatchKit App.app */; };
+		4505964021DAAEB5009F10C6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4505963E21DAAEB5009F10C6 /* Interface.storyboard */; };
+		4505964221DAAEB6009F10C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4505964121DAAEB6009F10C6 /* Assets.xcassets */; };
+		4505964921DAAEB7009F10C6 /* SpeedLimit WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4505964821DAAEB7009F10C6 /* SpeedLimit WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4505964E21DAAEB7009F10C6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505964D21DAAEB7009F10C6 /* InterfaceController.swift */; };
+		4505965021DAAEB7009F10C6 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505964F21DAAEB7009F10C6 /* ExtensionDelegate.swift */; };
+		4505965221DAAEB7009F10C6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505965121DAAEB7009F10C6 /* NotificationController.swift */; };
+		4505965421DAAEB7009F10C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4505965321DAAEB7009F10C6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4505962621DAAEB5009F10C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4505960921DAAEB1009F10C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4505961021DAAEB1009F10C6;
+			remoteInfo = SpeedLimit;
+		};
+		4505963121DAAEB5009F10C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4505960921DAAEB1009F10C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4505961021DAAEB1009F10C6;
+			remoteInfo = SpeedLimit;
+		};
+		4505963B21DAAEB5009F10C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4505960921DAAEB1009F10C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4505963821DAAEB5009F10C6;
+			remoteInfo = "SpeedLimit WatchKit App";
+		};
+		4505964A21DAAEB7009F10C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4505960921DAAEB1009F10C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4505964721DAAEB7009F10C6;
+			remoteInfo = "SpeedLimit WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4505965C21DAAEB7009F10C6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4505964921DAAEB7009F10C6 /* SpeedLimit WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4505966021DAAEB7009F10C6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4505963A21DAAEB5009F10C6 /* SpeedLimit WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4505961121DAAEB1009F10C6 /* SpeedLimit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedLimit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4505961421DAAEB1009F10C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4505961621DAAEB1009F10C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4505961921DAAEB1009F10C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4505961B21DAAEB5009F10C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4505961E21DAAEB5009F10C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4505962021DAAEB5009F10C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4505962521DAAEB5009F10C6 /* SpeedLimitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedLimitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4505962921DAAEB5009F10C6 /* SpeedLimitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedLimitTests.swift; sourceTree = "<group>"; };
+		4505962B21DAAEB5009F10C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4505963021DAAEB5009F10C6 /* SpeedLimitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedLimitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4505963421DAAEB5009F10C6 /* SpeedLimitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedLimitUITests.swift; sourceTree = "<group>"; };
+		4505963621DAAEB5009F10C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4505963921DAAEB5009F10C6 /* SpeedLimit WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeedLimit WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4505963F21DAAEB5009F10C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4505964121DAAEB6009F10C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4505964321DAAEB6009F10C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4505964821DAAEB7009F10C6 /* SpeedLimit WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SpeedLimit WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4505964D21DAAEB7009F10C6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4505964F21DAAEB7009F10C6 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4505965121DAAEB7009F10C6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4505965321DAAEB7009F10C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4505965521DAAEB7009F10C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4505965621DAAEB7009F10C6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4505960E21DAAEB1009F10C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4505962221DAAEB5009F10C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4505962D21DAAEB5009F10C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4505964521DAAEB7009F10C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4505960821DAAEB1009F10C6 = {
+			isa = PBXGroup;
+			children = (
+				4505961321DAAEB1009F10C6 /* SpeedLimit */,
+				4505962821DAAEB5009F10C6 /* SpeedLimitTests */,
+				4505963321DAAEB5009F10C6 /* SpeedLimitUITests */,
+				4505963D21DAAEB5009F10C6 /* SpeedLimit WatchKit App */,
+				4505964C21DAAEB7009F10C6 /* SpeedLimit WatchKit Extension */,
+				4505961221DAAEB1009F10C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4505961221DAAEB1009F10C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4505961121DAAEB1009F10C6 /* SpeedLimit.app */,
+				4505962521DAAEB5009F10C6 /* SpeedLimitTests.xctest */,
+				4505963021DAAEB5009F10C6 /* SpeedLimitUITests.xctest */,
+				4505963921DAAEB5009F10C6 /* SpeedLimit WatchKit App.app */,
+				4505964821DAAEB7009F10C6 /* SpeedLimit WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4505961321DAAEB1009F10C6 /* SpeedLimit */ = {
+			isa = PBXGroup;
+			children = (
+				4505961421DAAEB1009F10C6 /* AppDelegate.swift */,
+				4505961621DAAEB1009F10C6 /* ViewController.swift */,
+				4505961821DAAEB1009F10C6 /* Main.storyboard */,
+				4505961B21DAAEB5009F10C6 /* Assets.xcassets */,
+				4505961D21DAAEB5009F10C6 /* LaunchScreen.storyboard */,
+				4505962021DAAEB5009F10C6 /* Info.plist */,
+			);
+			path = SpeedLimit;
+			sourceTree = "<group>";
+		};
+		4505962821DAAEB5009F10C6 /* SpeedLimitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4505962921DAAEB5009F10C6 /* SpeedLimitTests.swift */,
+				4505962B21DAAEB5009F10C6 /* Info.plist */,
+			);
+			path = SpeedLimitTests;
+			sourceTree = "<group>";
+		};
+		4505963321DAAEB5009F10C6 /* SpeedLimitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4505963421DAAEB5009F10C6 /* SpeedLimitUITests.swift */,
+				4505963621DAAEB5009F10C6 /* Info.plist */,
+			);
+			path = SpeedLimitUITests;
+			sourceTree = "<group>";
+		};
+		4505963D21DAAEB5009F10C6 /* SpeedLimit WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4505963E21DAAEB5009F10C6 /* Interface.storyboard */,
+				4505964121DAAEB6009F10C6 /* Assets.xcassets */,
+				4505964321DAAEB6009F10C6 /* Info.plist */,
+			);
+			path = "SpeedLimit WatchKit App";
+			sourceTree = "<group>";
+		};
+		4505964C21DAAEB7009F10C6 /* SpeedLimit WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4505964D21DAAEB7009F10C6 /* InterfaceController.swift */,
+				4505964F21DAAEB7009F10C6 /* ExtensionDelegate.swift */,
+				4505965121DAAEB7009F10C6 /* NotificationController.swift */,
+				4505965321DAAEB7009F10C6 /* Assets.xcassets */,
+				4505965521DAAEB7009F10C6 /* Info.plist */,
+				4505965621DAAEB7009F10C6 /* PushNotificationPayload.apns */,
+			);
+			path = "SpeedLimit WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4505961021DAAEB1009F10C6 /* SpeedLimit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4505966121DAAEB7009F10C6 /* Build configuration list for PBXNativeTarget "SpeedLimit" */;
+			buildPhases = (
+				4505960D21DAAEB1009F10C6 /* Sources */,
+				4505960E21DAAEB1009F10C6 /* Frameworks */,
+				4505960F21DAAEB1009F10C6 /* Resources */,
+				4505966021DAAEB7009F10C6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4505963C21DAAEB5009F10C6 /* PBXTargetDependency */,
+			);
+			name = SpeedLimit;
+			productName = SpeedLimit;
+			productReference = 4505961121DAAEB1009F10C6 /* SpeedLimit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4505962421DAAEB5009F10C6 /* SpeedLimitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4505966421DAAEB7009F10C6 /* Build configuration list for PBXNativeTarget "SpeedLimitTests" */;
+			buildPhases = (
+				4505962121DAAEB5009F10C6 /* Sources */,
+				4505962221DAAEB5009F10C6 /* Frameworks */,
+				4505962321DAAEB5009F10C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4505962721DAAEB5009F10C6 /* PBXTargetDependency */,
+			);
+			name = SpeedLimitTests;
+			productName = SpeedLimitTests;
+			productReference = 4505962521DAAEB5009F10C6 /* SpeedLimitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4505962F21DAAEB5009F10C6 /* SpeedLimitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4505966721DAAEB7009F10C6 /* Build configuration list for PBXNativeTarget "SpeedLimitUITests" */;
+			buildPhases = (
+				4505962C21DAAEB5009F10C6 /* Sources */,
+				4505962D21DAAEB5009F10C6 /* Frameworks */,
+				4505962E21DAAEB5009F10C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4505963221DAAEB5009F10C6 /* PBXTargetDependency */,
+			);
+			name = SpeedLimitUITests;
+			productName = SpeedLimitUITests;
+			productReference = 4505963021DAAEB5009F10C6 /* SpeedLimitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4505963821DAAEB5009F10C6 /* SpeedLimit WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4505965D21DAAEB7009F10C6 /* Build configuration list for PBXNativeTarget "SpeedLimit WatchKit App" */;
+			buildPhases = (
+				4505963721DAAEB5009F10C6 /* Resources */,
+				4505965C21DAAEB7009F10C6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4505964B21DAAEB7009F10C6 /* PBXTargetDependency */,
+			);
+			name = "SpeedLimit WatchKit App";
+			productName = "SpeedLimit WatchKit App";
+			productReference = 4505963921DAAEB5009F10C6 /* SpeedLimit WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4505964721DAAEB7009F10C6 /* SpeedLimit WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4505965921DAAEB7009F10C6 /* Build configuration list for PBXNativeTarget "SpeedLimit WatchKit Extension" */;
+			buildPhases = (
+				4505964421DAAEB7009F10C6 /* Sources */,
+				4505964521DAAEB7009F10C6 /* Frameworks */,
+				4505964621DAAEB7009F10C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpeedLimit WatchKit Extension";
+			productName = "SpeedLimit WatchKit Extension";
+			productReference = 4505964821DAAEB7009F10C6 /* SpeedLimit WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4505960921DAAEB1009F10C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Janujan Selva";
+				TargetAttributes = {
+					4505961021DAAEB1009F10C6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4505962421DAAEB5009F10C6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4505961021DAAEB1009F10C6;
+					};
+					4505962F21DAAEB5009F10C6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4505961021DAAEB1009F10C6;
+					};
+					4505963821DAAEB5009F10C6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4505964721DAAEB7009F10C6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4505960C21DAAEB1009F10C6 /* Build configuration list for PBXProject "SpeedLimit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4505960821DAAEB1009F10C6;
+			productRefGroup = 4505961221DAAEB1009F10C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4505961021DAAEB1009F10C6 /* SpeedLimit */,
+				4505962421DAAEB5009F10C6 /* SpeedLimitTests */,
+				4505962F21DAAEB5009F10C6 /* SpeedLimitUITests */,
+				4505963821DAAEB5009F10C6 /* SpeedLimit WatchKit App */,
+				4505964721DAAEB7009F10C6 /* SpeedLimit WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4505960F21DAAEB1009F10C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4505961F21DAAEB5009F10C6 /* LaunchScreen.storyboard in Resources */,
+				4505961C21DAAEB5009F10C6 /* Assets.xcassets in Resources */,
+				4505961A21DAAEB1009F10C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4505962321DAAEB5009F10C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4505962E21DAAEB5009F10C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4505963721DAAEB5009F10C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4505964221DAAEB6009F10C6 /* Assets.xcassets in Resources */,
+				4505964021DAAEB5009F10C6 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4505964621DAAEB7009F10C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4505965421DAAEB7009F10C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4505960D21DAAEB1009F10C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4505961721DAAEB1009F10C6 /* ViewController.swift in Sources */,
+				4505961521DAAEB1009F10C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4505962121DAAEB5009F10C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4505962A21DAAEB5009F10C6 /* SpeedLimitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4505962C21DAAEB5009F10C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4505963521DAAEB5009F10C6 /* SpeedLimitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4505964421DAAEB7009F10C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4505965221DAAEB7009F10C6 /* NotificationController.swift in Sources */,
+				4505965021DAAEB7009F10C6 /* ExtensionDelegate.swift in Sources */,
+				4505964E21DAAEB7009F10C6 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4505962721DAAEB5009F10C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4505961021DAAEB1009F10C6 /* SpeedLimit */;
+			targetProxy = 4505962621DAAEB5009F10C6 /* PBXContainerItemProxy */;
+		};
+		4505963221DAAEB5009F10C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4505961021DAAEB1009F10C6 /* SpeedLimit */;
+			targetProxy = 4505963121DAAEB5009F10C6 /* PBXContainerItemProxy */;
+		};
+		4505963C21DAAEB5009F10C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4505963821DAAEB5009F10C6 /* SpeedLimit WatchKit App */;
+			targetProxy = 4505963B21DAAEB5009F10C6 /* PBXContainerItemProxy */;
+		};
+		4505964B21DAAEB7009F10C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4505964721DAAEB7009F10C6 /* SpeedLimit WatchKit Extension */;
+			targetProxy = 4505964A21DAAEB7009F10C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4505961821DAAEB1009F10C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4505961921DAAEB1009F10C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4505961D21DAAEB5009F10C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4505961E21DAAEB5009F10C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4505963E21DAAEB5009F10C6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4505963F21DAAEB5009F10C6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4505965721DAAEB7009F10C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4505965821DAAEB7009F10C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4505965A21DAAEB7009F10C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpeedLimit WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = side.SpeedLimit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		4505965B21DAAEB7009F10C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpeedLimit WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = side.SpeedLimit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		4505965E21DAAEB7009F10C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = SpeedLimit_WatchKit_Extension;
+				INFOPLIST_FILE = "SpeedLimit WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = side.SpeedLimit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		4505965F21DAAEB7009F10C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = SpeedLimit_WatchKit_Extension;
+				INFOPLIST_FILE = "SpeedLimit WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = side.SpeedLimit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		4505966221DAAEB7009F10C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeedLimit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = side.SpeedLimit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4505966321DAAEB7009F10C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeedLimit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = side.SpeedLimit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4505966521DAAEB7009F10C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeedLimitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = side.SpeedLimitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedLimit.app/SpeedLimit";
+			};
+			name = Debug;
+		};
+		4505966621DAAEB7009F10C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeedLimitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = side.SpeedLimitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedLimit.app/SpeedLimit";
+			};
+			name = Release;
+		};
+		4505966821DAAEB7009F10C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeedLimitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = side.SpeedLimitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedLimit;
+			};
+			name = Debug;
+		};
+		4505966921DAAEB7009F10C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeedLimitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = side.SpeedLimitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedLimit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4505960C21DAAEB1009F10C6 /* Build configuration list for PBXProject "SpeedLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4505965721DAAEB7009F10C6 /* Debug */,
+				4505965821DAAEB7009F10C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4505965921DAAEB7009F10C6 /* Build configuration list for PBXNativeTarget "SpeedLimit WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4505965A21DAAEB7009F10C6 /* Debug */,
+				4505965B21DAAEB7009F10C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4505965D21DAAEB7009F10C6 /* Build configuration list for PBXNativeTarget "SpeedLimit WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4505965E21DAAEB7009F10C6 /* Debug */,
+				4505965F21DAAEB7009F10C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4505966121DAAEB7009F10C6 /* Build configuration list for PBXNativeTarget "SpeedLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4505966221DAAEB7009F10C6 /* Debug */,
+				4505966321DAAEB7009F10C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4505966421DAAEB7009F10C6 /* Build configuration list for PBXNativeTarget "SpeedLimitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4505966521DAAEB7009F10C6 /* Debug */,
+				4505966621DAAEB7009F10C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4505966721DAAEB7009F10C6 /* Build configuration list for PBXNativeTarget "SpeedLimitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4505966821DAAEB7009F10C6 /* Debug */,
+				4505966921DAAEB7009F10C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4505960921DAAEB1009F10C6 /* Project object */;
+}
